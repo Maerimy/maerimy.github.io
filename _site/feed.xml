@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-25T00:00:43+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bravecompany 기술블로그</title><subtitle>Bravecompany TechTeam blog --ing</subtitle><author><name>judy@bravecompany.io</name></author><entry><title type="html">jekyll Test</title><link href="http://localhost:4000/2019-11-24/test" rel="alternate" type="text/html" title="jekyll Test" /><published>2019-11-24T13:11:00+09:00</published><updated>2019-11-24T13:11:00+09:00</updated><id>http://localhost:4000/2019-11-24/test</id><content type="html" xml:base="http://localhost:4000/2019-11-24/test">&lt;h2 id=&quot;chapter1-리팩토링&quot;&gt;Chapter1. 리팩토링&lt;/h2&gt;
+
+&lt;h3 id=&quot;리팩토링이란&quot;&gt;리팩토링이란?&lt;/h3&gt;
+&lt;p&gt;기능(동작)의 변화없이 코드를 개선하는 작업 (결과는 동일)&lt;/p&gt;
+
+&lt;h3 id=&quot;리팩토링은-왜-해야하는가&quot;&gt;리팩토링은 왜 해야하는가?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;코드의 가독성을 높여 소프트웨어를 더 이해하기 쉽게 만든다.&lt;/li&gt;
+  &lt;li&gt;프로그램의 구조를 명확히 함으로써 버그를 더 잘 찾을 수 있게 한다.&lt;/li&gt;
+  &lt;li&gt;소프트웨어의 디자인을 개선시킨다.&lt;/li&gt;
+  &lt;li&gt;시간단축, 유지보수 편리 등의 개발생산성을 높여준다.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>judy.kim</name></author><category term="jekyll" /><summary type="html">Chapter1. 리팩토링</summary></entry><entry><title type="html">Refactoring</title><link href="http://localhost:4000/2019-10-28/refactoring" rel="alternate" type="text/html" title="Refactoring" /><published>2019-10-28T13:11:00+09:00</published><updated>2019-10-28T13:11:00+09:00</updated><id>http://localhost:4000/2019-10-28/refactoring</id><content type="html" xml:base="http://localhost:4000/2019-10-28/refactoring">&lt;h2 id=&quot;chapter1-리팩토링&quot;&gt;Chapter1. 리팩토링&lt;/h2&gt;
+
+&lt;h3 id=&quot;리팩토링이란&quot;&gt;리팩토링이란?&lt;/h3&gt;
+&lt;p&gt;기능(동작)의 변화없이 코드를 개선하는 작업 (결과는 동일)&lt;/p&gt;
+
+&lt;h3 id=&quot;리팩토링은-왜-해야하는가&quot;&gt;리팩토링은 왜 해야하는가?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;코드의 가독성을 높여 소프트웨어를 더 이해하기 쉽게 만든다.&lt;/li&gt;
+  &lt;li&gt;프로그램의 구조를 명확히 함으로써 버그를 더 잘 찾을 수 있게 한다.&lt;/li&gt;
+  &lt;li&gt;소프트웨어의 디자인을 개선시킨다.&lt;/li&gt;
+  &lt;li&gt;시간단축, 유지보수 편리 등의 개발생산성을 높여준다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;리팩토링은-언제-해야-하는가&quot;&gt;리팩토링은 언제 해야 하는가?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;동일한 코드가 3번 이상 반복될 때&lt;/li&gt;
+  &lt;li&gt;기능을 추가하기 전 (수정해야 할 코드에 대한 이해가 높아지며 기능 추가가 쉬운 디자인으로 변경 됨)&lt;/li&gt;
+  &lt;li&gt;버그를 수정해야 할 때&lt;/li&gt;
+  &lt;li&gt;코드 검토(Code Review)를 할 때&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;리팩토링-기본-원칙&quot;&gt;리팩토링 기본 원칙&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;간단해야 한다. Keep It Simple and Stupid (KISS)&lt;/li&gt;
+  &lt;li&gt;반복하지 말아야 한다. Don’t Repeat Yourself (DRY)&lt;/li&gt;
+  &lt;li&gt;테스트 주도 개발 Test-Driven Development (TDD)&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>judy.kim</name></author><category term="refactoring" /><summary type="html">Chapter1. 리팩토링 리팩토링이란? 기능(동작)의 변화없이 코드를 개선하는 작업 (결과는 동일) 리팩토링은 왜 해야하는가? 코드의 가독성을 높여 소프트웨어를 더 이해하기 쉽게 만든다. 프로그램의 구조를 명확히 함으로써 버그를 더 잘 찾을 수 있게 한다. 소프트웨어의 디자인을 개선시킨다. 시간단축, 유지보수 편리 등의 개발생산성을 높여준다. 리팩토링은 언제 해야 하는가? 동일한 코드가 3번 이상 반복될 때 기능을 추가하기 전 (수정해야 할 코드에 대한 이해가 높아지며 기능 추가가 쉬운 디자인으로 변경 됨) 버그를 수정해야 할 때 코드 검토(Code Review)를 할 때 리팩토링 기본 원칙 간단해야 한다. Keep It Simple and Stupid (KISS) 반복하지 말아야 한다. Don’t Repeat Yourself (DRY) 테스트 주도 개발 Test-Driven Development (TDD)</summary></entry></feed>
