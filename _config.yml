@@ -10,7 +10,7 @@ image: '/images/judy.png'
 # Google Analytics
 #google_analytics: UA—XXXXXXXX-X
 
-category_list : [techCamp1주차,techCamp2주차,techCamp3주차]
+category_list : [techCamp1,techCamp2,techCamp3]
 
 collections:
   authors:
