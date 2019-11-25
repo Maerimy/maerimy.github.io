@@ -7,18 +7,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>About | Bravecompany 기술블로그</title>
+<title>용감한 테크캠프 | Bravecompany 기술블로그</title>
 <meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="About" />
-<meta name="author" content="Chester" />
+<meta property="og:title" content="용감한 테크캠프" />
+<meta name="author" content="judy@bravecompany.io" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Bravecompany TechTeam blog –ing" />
 <meta property="og:description" content="Bravecompany TechTeam blog –ing" />
-<link rel="canonical" href="http://localhost:4000/about/" />
-<meta property="og:url" content="http://localhost:4000/about/" />
+<link rel="canonical" href="http://localhost:4000/category/techCamp" />
+<meta property="og:url" content="http://localhost:4000/category/techCamp" />
 <meta property="og:site_name" content="Bravecompany 기술블로그" />
 <script type="application/ld+json">
-{"headline":"About","url":"http://localhost:4000/about/","author":{"@type":"Person","name":"Chester"},"description":"Bravecompany TechTeam blog –ing","name":"Bravecompany 기술블로그","@type":"WebSite","@context":"https://schema.org"}</script>
+{"headline":"용감한 테크캠프","url":"http://localhost:4000/category/techCamp","author":{"@type":"Person","name":"judy@bravecompany.io"},"description":"Bravecompany TechTeam blog –ing","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="stylesheet" href="/assets/css/post.css">
   <link rel="stylesheet" href="/assets/css/lanyon.css">
+  <link rel="stylesheet" href="/assets/css/custom.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
 
   <!-- Favicon -->
@@ -42,19 +43,37 @@
 
 
   <body>
-
     <nav class="nav">
   <div class="nav-container">
     <a href="/">
       <h2 class="nav-title">Bravecompany 기술블로그</h2>
     </a>
     <ul>
-      <li><a href="/about">About</a></li>
-      <li><a href="/">Posts</a></li>
+      <!--li><a href="/about">About</a></li-->
+      <li><a href="/category">Posts</a></li>
+      <li><input id="search-input" type="search" placeholder="Search..." value="" />
+        <img src="http://coco7846.cdn3.cafe24.com/icon/searchBtn.png" style="width:25px;height:25px;float:right;margin:0;display:inline-block;"/>
+        </li>
     </ul>
+
   </div>
 </nav>
+<ul class="search__results" id="results-container"></ul>
+<!-- Script pointing to jekyll-search.js -->
+<script src="/assets/js/jekyll-search.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search2.json',
+        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+        noResultsText: '<li>No results found</li>',
+        limit: 15,
+        fuzzy: false,
+        exclude: ['Welcome']
+    })
+</script><!-- #header -->
     <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
      styles, `#sidebar-checkbox` for behavior. -->
      <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
@@ -77,6 +96,18 @@
            
          
            
+         
+           
+         
+           
+             
+           
+         
+           
+             
+           
+         
+           
              
            
          
@@ -85,28 +116,26 @@
            
          
            
-             
-               <a class="sidebar-nav-item" href="/tags">Tags</a>
              
            
          
        </nav>
        <div>
-            <div class="sidebar-nav-item">Category</div>
+            <a href="/category"><div class="sidebar-nav-item">Category</div></a>
             <nav class="content-ul">
               
-              <a href="/#techCamp1주차"
+              <a href="/category/techCamp"
                  class="sidebar-nav-item pl-3rem">
                                     <span class="name">
-                                        techCamp1주차
+                                        techCamp
                                     </span>
                 <span class="badge">1</span>
               </a>
               
-              <a href="/#techCamp2주차"
+              <a href="/category/etc"
                  class="sidebar-nav-item pl-3rem">
                                     <span class="name">
-                                        techCamp2주차
+                                        etc
                                     </span>
                 <span class="badge">1</span>
               </a>
@@ -121,49 +150,32 @@
        </div>
      </div>
 
+    
+
     <main>
-      <div class="post">
-  <div class="post-info">
-    <span>Written by</span><br/>
-    <div class="post-meta">
+      <h1>카테고리 > techCamp</h1>
+<div class="catalogue">
     
-    <a href="/authors/">
-        <div class="author-image"
-             >
+      <a href="http://localhost:4000/posts/2019/10/28/refactoring" class="catalogue-item">
+        <div>
+          <time datetime="2019-10-28 13:11:00 +0900" class="catalogue-time">October 28, 2019</time>
+          <h1 class="catalogue-title">Refactoring</h1>
+          <div class="catalogue-line"></div>
+
+          <p>
+            Chapter1. 리팩토링 리팩토링이란? 기능(동작)의 변화없이 코드를 개선하는 작업 (결과는 동일) 리팩토링은 왜 해야하는가? 코드의 가독성을 높여 소프트웨어를 더 이해하기 쉽게 만든다. 프로그램의 구조를 명확히 함으로써 버그를 더 잘 찾을 수...
+          </p>
+
         </div>
-        <p class="author-name"></p>
-    </a>
-    </div>
+      </a>
     
-  </div>
-
-  <h1 class="post-title">About</h1>
-  <div class="post-line"></div>
-
-  <p>A friend of mine writes short stories. One sunny day, I asked if he wanted a website to showcase his works and he agreed. I decided to use GitHub Pages to host his site. That way he wouldn’t have to buy a domain and a server.</p>
-
-<p>While doing some research up on GitHub Pages, I accidentally chanced upon this <em>simple, blog-aware, static site generator</em> called <a href="https://jekyllrb.com/">Jekyll</a> which works really well with GitHub Pages. I figured it would do just fine for my friend and I set about searching for a pretty theme. I wanted a theme with a <em>book-ish</em> vibe. Unfortunately, most of the themes were too modern. Eventually, I caved and begun working on my own theme. With the help of <a href="https://github.com/poole/poole">Poole</a>, the Jekyll Butler, I was able to build <strong>Tale</strong>.</p>
-
-<h2 id="contribute">Contribute</h2>
-<p>Feel free to create an issue or make a pull request on <a href="https://github.com/chesterhow/tale">GitHub</a>.</p>
-
-<p>Thanks for reading!</p>
-
 </div>
 
-
-
-<div class="pagination">
-  
-  
-
-  <a href="#" class="top">Top</a>
-</div>
     </main>
 
     <footer>
   <span>
-    &copy; <time datetime="2019-11-25 00:46:23 +0900">2019</time> . Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
+    &copy; <time datetime="2019-11-26 04:19:32 +0900">2019</time> . Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
   </span>
 </footer>
 

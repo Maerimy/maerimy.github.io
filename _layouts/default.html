@@ -5,9 +5,15 @@
   {% include head.html %}
 
   <body>
-
     {% include navigation.html %}
     {% include sidebar.html %}
+
+    {% if page.layout == 'home' %}
+    <section class="page-header" id="banner">
+        <h1 class="project-name">{{ page-title }}</h1>
+        <h2 class="project-tagline">{{ page-tagline }}</h2>
+    </section>
+    {% endif %}
 
     <main>
       {{ content }}

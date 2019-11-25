@@ -1,15 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-25T00:46:23+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bravecompany 기술블로그</title><subtitle>Bravecompany TechTeam blog --ing</subtitle><author><name>judy@bravecompany.io</name></author><entry><title type="html">jekyll Test</title><link href="http://localhost:4000/2019-11-24/test" rel="alternate" type="text/html" title="jekyll Test" /><published>2019-11-24T13:11:00+09:00</published><updated>2019-11-24T13:11:00+09:00</updated><id>http://localhost:4000/2019-11-24/test</id><content type="html" xml:base="http://localhost:4000/2019-11-24/test">&lt;h2 id=&quot;chapter1-리팩토링&quot;&gt;Chapter1. 리팩토링&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-26T04:19:32+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bravecompany 기술블로그</title><subtitle>Bravecompany TechTeam blog --ing</subtitle><author><name>judy@bravecompany.io</name></author><entry><title type="html">jekyll Test</title><link href="http://localhost:4000/posts/2019/11/24/test" rel="alternate" type="text/html" title="jekyll Test" /><published>2019-11-24T13:11:00+09:00</published><updated>2019-11-24T13:11:00+09:00</updated><id>http://localhost:4000/posts/2019/11/24/test</id><content type="html" xml:base="http://localhost:4000/posts/2019/11/24/test">&lt;h2 id=&quot;chapter1-기타&quot;&gt;Chapter1. 기타&lt;/h2&gt;
 
-&lt;h3 id=&quot;리팩토링이란&quot;&gt;리팩토링이란?&lt;/h3&gt;
-&lt;p&gt;기능(동작)의 변화없이 코드를 개선하는 작업 (결과는 동일)&lt;/p&gt;
+&lt;h3 id=&quot;무슨-내용을-쓸가요&quot;&gt;무슨 내용을 쓸가요?&lt;/h3&gt;
+&lt;p&gt;이러쿵저러쿵 이러쿵쿵&lt;/p&gt;
 
-&lt;h3 id=&quot;리팩토링은-왜-해야하는가&quot;&gt;리팩토링은 왜 해야하는가?&lt;/h3&gt;
+&lt;h3 id=&quot;왜오왜&quot;&gt;왜오왜&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;코드의 가독성을 높여 소프트웨어를 더 이해하기 쉽게 만든다.&lt;/li&gt;
-  &lt;li&gt;프로그램의 구조를 명확히 함으로써 버그를 더 잘 찾을 수 있게 한다.&lt;/li&gt;
-  &lt;li&gt;소프트웨어의 디자인을 개선시킨다.&lt;/li&gt;
-  &lt;li&gt;시간단축, 유지보수 편리 등의 개발생산성을 높여준다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>judy.kim</name></author><category term="jekyll" /><summary type="html">Chapter1. 리팩토링</summary></entry><entry><title type="html">Refactoring</title><link href="http://localhost:4000/2019-10-28/refactoring" rel="alternate" type="text/html" title="Refactoring" /><published>2019-10-28T13:11:00+09:00</published><updated>2019-10-28T13:11:00+09:00</updated><id>http://localhost:4000/2019-10-28/refactoring</id><content type="html" xml:base="http://localhost:4000/2019-10-28/refactoring">&lt;h2 id=&quot;chapter1-리팩토링&quot;&gt;Chapter1. 리팩토링&lt;/h2&gt;
+  &lt;li&gt;휴휴휴&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>judy.kim</name></author><category term="jekyll" /><summary type="html">Chapter1. 기타</summary></entry><entry><title type="html">Refactoring</title><link href="http://localhost:4000/posts/2019/10/28/refactoring" rel="alternate" type="text/html" title="Refactoring" /><published>2019-10-28T13:11:00+09:00</published><updated>2019-10-28T13:11:00+09:00</updated><id>http://localhost:4000/posts/2019/10/28/refactoring</id><content type="html" xml:base="http://localhost:4000/posts/2019/10/28/refactoring">&lt;h2 id=&quot;chapter1-리팩토링&quot;&gt;Chapter1. 리팩토링&lt;/h2&gt;
 
 &lt;h3 id=&quot;리팩토링이란&quot;&gt;리팩토링이란?&lt;/h3&gt;
 &lt;p&gt;기능(동작)의 변화없이 코드를 개선하는 작업 (결과는 동일)&lt;/p&gt;

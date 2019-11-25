@@ -26,10 +26,10 @@
          {% endfor %}
        </nav>
        <div>
-            <div class="sidebar-nav-item">Category</div>
+            <a href="/category"><div class="sidebar-nav-item">Category</div></a>
             <nav class="content-ul">
               {% for category in site.categories %}
-              <a href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}"
+              <a href="/category/{{ category | first }}"
                  class="sidebar-nav-item pl-3rem">
                                     <span class="name">
                                         {{ category | first }}

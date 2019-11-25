@@ -3,8 +3,9 @@ layout: post
 title: 'Refactoring'
 author: judy.kim
 date: 2019-10-28 13:11
-categories: [techCamp1주차]
+categories: [techCamp]
 tags: [refactoring]
+comments: true
 ---
 
 ## Chapter1. 리팩토링

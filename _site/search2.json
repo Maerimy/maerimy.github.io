@@ -1,0 +1,70 @@
+[
+  
+    {
+      "title"    : "jekyll Test",
+      "category" : "",
+      "tags"     : "jekyll",
+      "url"      : "/posts/2019/11/24/test",
+      "date"     : "2019-11-24 13:11:00 +0900",
+      "content"   : "<h2 id=\"chapter1-기타\">Chapter1. 기타</h2>\n\n<h3 id=\"무슨-내용을-쓸가요\">무슨 내용을 쓸가요?</h3>\n<p>이러쿵저러쿵 이러쿵쿵</p>\n\n<h3 id=\"왜오왜\">왜오왜</h3>\n<ul>\n  <li>휴휴휴</li>\n</ul>\n"
+    } ,
+  
+    {
+      "title"    : "Refactoring",
+      "category" : "",
+      "tags"     : "refactoring",
+      "url"      : "/posts/2019/10/28/refactoring",
+      "date"     : "2019-10-28 13:11:00 +0900",
+      "content"   : "<h2 id=\"chapter1-리팩토링\">Chapter1. 리팩토링</h2>\n\n<h3 id=\"리팩토링이란\">리팩토링이란?</h3>\n<p>기능(동작)의 변화없이 코드를 개선하는 작업 (결과는 동일)</p>\n\n<h3 id=\"리팩토링은-왜-해야하는가\">리팩토링은 왜 해야하는가?</h3>\n<ul>\n  <li>코드의 가독성을 높여 소프트웨어를 더 이해하기 쉽게 만든다.</li>\n  <li>프로그램의 구조를 명확히 함으로써 버그를 더 잘 찾을 수 있게 한다.</li>\n  <li>소프트웨어의 디자인을 개선시킨다.</li>\n  <li>시간단축, 유지보수 편리 등의 개발생산성을 높여준다.</li>\n</ul>\n\n<h3 id=\"리팩토링은-언제-해야-하는가\">리팩토링은 언제 해야 하는가?</h3>\n<ul>\n  <li>동일한 코드가 3번 이상 반복될 때</li>\n  <li>기능을 추가하기 전 (수정해야 할 코드에 대한 이해가 높아지며 기능 추가가 쉬운 디자인으로 변경 됨)</li>\n  <li>버그를 수정해야 할 때</li>\n  <li>코드 검토(Code Review)를 할 때</li>\n</ul>\n\n<h3 id=\"리팩토링-기본-원칙\">리팩토링 기본 원칙</h3>\n<ul>\n  <li>간단해야 한다. Keep It Simple and Stupid (KISS)</li>\n  <li>반복하지 말아야 한다. Don’t Repeat Yourself (DRY)</li>\n  <li>테스트 주도 개발 Test-Driven Development (TDD)</li>\n</ul>\n\n"
+    } 
+  
+  
+    
+,
+  {
+    "title"    : "기타",
+    "category" : "etc",
+    "tags"     : "",
+    "url"      : "/category/etc",
+    "date"     : "",
+    "content"   : ""
+  }
+    
+  
+    
+  
+    
+,
+  {
+    "title"    : "Home",
+    "category" : "",
+    "tags"     : "",
+    "url"      : "/",
+    "date"     : "",
+    "content"   : ""
+  }
+    
+  
+    
+  
+    
+  
+    
+  
+    
+,
+  {
+    "title"    : "용감한 테크캠프",
+    "category" : "techCamp",
+    "tags"     : "",
+    "url"      : "/category/techCamp",
+    "date"     : "",
+    "content"   : ""
+  }
+    
+  
+    
+  
+    
+  
+]
