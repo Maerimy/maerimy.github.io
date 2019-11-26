@@ -7,7 +7,7 @@ categories: [techCamp]
 tags: [refactoring]
 comments: true
 ---
-
+https://2ssue.github.io/blog/blog_renewal_ver1/#toc
 ## Chapter1. 리팩토링
 
 ### 리팩토링이란?
