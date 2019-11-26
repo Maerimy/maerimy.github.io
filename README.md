@@ -1,4 +1,7 @@
 
+https://spoqa.github.io/2011/12/17/about-spoqa-blog-creation.html
+https://blog.jaeyoon.io/2017/12/jekyll-image.html
+
 ## 포스트 작성방법
 ### 작성자정보 등록 
 각 포스트 상단 Front matter의 author에 따라 등록된 작성자 정보를 노출시키기 위함
