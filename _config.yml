@@ -2,7 +2,7 @@
 title:          Bravecompany 기술블로그
 description:    "Bravecompany TechTeam blog --ing"
 baseurl:        ""
-url:            ""
+url:            "https://maerimy.github.io"
 timezone:       "Asia/Seoul"
 repository:     ""
 author: judy@bravecompany.io
